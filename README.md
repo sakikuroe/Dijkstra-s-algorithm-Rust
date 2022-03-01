@@ -1,6 +1,7 @@
 ```rust
 fn main() {
     let mut g = Graph::new(10);
+    // add_edge(src, dst, weight)
     g.add_edge(0, 1, 5 as usize);
     g.add_edge(0, 2, 3 as usize);
     g.add_edge(0, 3, 2 as usize);
